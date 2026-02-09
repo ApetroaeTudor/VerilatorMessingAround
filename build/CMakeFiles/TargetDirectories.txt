@@ -1,3 +1,0 @@
-/home/tudor/Licenta/VerilatorSetup/build/CMakeFiles/simulation.dir
-/home/tudor/Licenta/VerilatorSetup/build/CMakeFiles/edit_cache.dir
-/home/tudor/Licenta/VerilatorSetup/build/CMakeFiles/rebuild_cache.dir
