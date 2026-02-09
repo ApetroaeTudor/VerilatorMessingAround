@@ -1,0 +1,78 @@
+Performing C++ SOURCE FILE Test _fno_pch_timestamp failed with the following output:
+Change Dir: /home/tudor/Licenta/VerilatorSetup/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_72d4d && [1/2] Building CXX object CMakeFiles/cmTC_72d4d.dir/src.cxx.o
+FAILED: CMakeFiles/cmTC_72d4d.dir/src.cxx.o 
+/usr/bin/clang++ -D_fno_pch_timestamp  -fno-pch-timestamp -Wno-error=cpp -MD -MT CMakeFiles/cmTC_72d4d.dir/src.cxx.o -MF CMakeFiles/cmTC_72d4d.dir/src.cxx.o.d -o CMakeFiles/cmTC_72d4d.dir/src.cxx.o -c /home/tudor/Licenta/VerilatorSetup/build/CMakeFiles/CMakeTmp/src.cxx
+clang: error: unknown argument: '-fno-pch-timestamp'
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+
+        #warning warning
+        int main() { return 0; }
+        
+Performing C++ SOURCE FILE Test _mno_cet failed with the following output:
+Change Dir: /home/tudor/Licenta/VerilatorSetup/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_dae8b && [1/2] Building CXX object CMakeFiles/cmTC_dae8b.dir/src.cxx.o
+FAILED: CMakeFiles/cmTC_dae8b.dir/src.cxx.o 
+/usr/bin/clang++ -D_mno_cet  -mno-cet -Wno-error=cpp -MD -MT CMakeFiles/cmTC_dae8b.dir/src.cxx.o -MF CMakeFiles/cmTC_dae8b.dir/src.cxx.o.d -o CMakeFiles/cmTC_dae8b.dir/src.cxx.o -c /home/tudor/Licenta/VerilatorSetup/build/CMakeFiles/CMakeTmp/src.cxx
+clang: error: unknown argument: '-mno-cet'
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+
+        #warning warning
+        int main() { return 0; }
+        
+Performing C++ SOURCE FILE Test _Wno_subobject_linkage failed with the following output:
+Change Dir: /home/tudor/Licenta/VerilatorSetup/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_50dde && [1/2] Building CXX object CMakeFiles/cmTC_50dde.dir/src.cxx.o
+warning: unknown warning option '-Wno-subobject-linkage' [-Wunknown-warning-option]
+/home/tudor/Licenta/VerilatorSetup/build/CMakeFiles/CMakeTmp/src.cxx:2:10: warning: warning [-W#warnings]
+        #warning warning
+         ^
+2 warnings generated.
+[2/2] Linking CXX executable cmTC_50dde
+
+
+Source file was:
+
+        #warning warning
+        int main() { return 0; }
+        
+Performing C++ SOURCE FILE Test _Wno_vla_cxx_extension failed with the following output:
+Change Dir: /home/tudor/Licenta/VerilatorSetup/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_85a2d && [1/2] Building CXX object CMakeFiles/cmTC_85a2d.dir/src.cxx.o
+warning: unknown warning option '-Wno-vla-cxx-extension'; did you mean '-Wno-vla-extension'? [-Wunknown-warning-option]
+/home/tudor/Licenta/VerilatorSetup/build/CMakeFiles/CMakeTmp/src.cxx:2:10: warning: warning [-W#warnings]
+        #warning warning
+         ^
+2 warnings generated.
+[2/2] Linking CXX executable cmTC_85a2d
+
+
+Source file was:
+
+        #warning warning
+        int main() { return 0; }
+        
+Performing C++ SOURCE FILE Test _mt failed with the following output:
+Change Dir: /home/tudor/Licenta/VerilatorSetup/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_24d73 && [1/2] Building CXX object CMakeFiles/cmTC_24d73.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_24d73
+FAILED: cmTC_24d73 
+: && /usr/bin/clang++   CMakeFiles/cmTC_24d73.dir/src.cxx.o -o cmTC_24d73  -mt && :
+clang: error: unknown argument: '-mt'
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+int main() {return 0;}
+

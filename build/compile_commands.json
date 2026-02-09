@@ -1,0 +1,62 @@
+[
+{
+  "directory": "/home/tudor/Licenta/VerilatorSetup/build",
+  "command": "/usr/bin/clang++ -DVM_COVERAGE=0 -DVM_SC=0 -DVM_TRACE=1 -DVM_TRACE_FST=1 -DVM_TRACE_SAIF=0 -DVM_TRACE_VCD=0 -I/home/tudor/Licenta/VerilatorSetup/sim_dir -I/home/tudor/Documents/oss-cad-suite/share/verilator/include -I/home/tudor/Documents/oss-cad-suite/share/verilator/include/vltstd -g -o CMakeFiles/simulation.dir/test_tb.cpp.o -c /home/tudor/Licenta/VerilatorSetup/test_tb.cpp",
+  "file": "/home/tudor/Licenta/VerilatorSetup/test_tb.cpp"
+},
+{
+  "directory": "/home/tudor/Licenta/VerilatorSetup/build",
+  "command": "/usr/bin/clang++ -DVM_COVERAGE=0 -DVM_SC=0 -DVM_TRACE=1 -DVM_TRACE_FST=1 -DVM_TRACE_SAIF=0 -DVM_TRACE_VCD=0 -I/home/tudor/Licenta/VerilatorSetup/sim_dir -I/home/tudor/Documents/oss-cad-suite/share/verilator/include -I/home/tudor/Documents/oss-cad-suite/share/verilator/include/vltstd -g -o CMakeFiles/simulation.dir/sim_dir/Vtest.cpp.o -c /home/tudor/Licenta/VerilatorSetup/sim_dir/Vtest.cpp",
+  "file": "/home/tudor/Licenta/VerilatorSetup/sim_dir/Vtest.cpp"
+},
+{
+  "directory": "/home/tudor/Licenta/VerilatorSetup/build",
+  "command": "/usr/bin/clang++ -DVM_COVERAGE=0 -DVM_SC=0 -DVM_TRACE=1 -DVM_TRACE_FST=1 -DVM_TRACE_SAIF=0 -DVM_TRACE_VCD=0 -I/home/tudor/Licenta/VerilatorSetup/sim_dir -I/home/tudor/Documents/oss-cad-suite/share/verilator/include -I/home/tudor/Documents/oss-cad-suite/share/verilator/include/vltstd -g -o CMakeFiles/simulation.dir/sim_dir/Vtest___024root__0.cpp.o -c /home/tudor/Licenta/VerilatorSetup/sim_dir/Vtest___024root__0.cpp",
+  "file": "/home/tudor/Licenta/VerilatorSetup/sim_dir/Vtest___024root__0.cpp"
+},
+{
+  "directory": "/home/tudor/Licenta/VerilatorSetup/build",
+  "command": "/usr/bin/clang++ -DVM_COVERAGE=0 -DVM_SC=0 -DVM_TRACE=1 -DVM_TRACE_FST=1 -DVM_TRACE_SAIF=0 -DVM_TRACE_VCD=0 -I/home/tudor/Licenta/VerilatorSetup/sim_dir -I/home/tudor/Documents/oss-cad-suite/share/verilator/include -I/home/tudor/Documents/oss-cad-suite/share/verilator/include/vltstd -g  -Wall -Wpedantic -o CMakeFiles/simulation.dir/sim_dir/Vtest___024root__Slow.cpp.o -c /home/tudor/Licenta/VerilatorSetup/sim_dir/Vtest___024root__Slow.cpp",
+  "file": "/home/tudor/Licenta/VerilatorSetup/sim_dir/Vtest___024root__Slow.cpp"
+},
+{
+  "directory": "/home/tudor/Licenta/VerilatorSetup/build",
+  "command": "/usr/bin/clang++ -DVM_COVERAGE=0 -DVM_SC=0 -DVM_TRACE=1 -DVM_TRACE_FST=1 -DVM_TRACE_SAIF=0 -DVM_TRACE_VCD=0 -I/home/tudor/Licenta/VerilatorSetup/sim_dir -I/home/tudor/Documents/oss-cad-suite/share/verilator/include -I/home/tudor/Documents/oss-cad-suite/share/verilator/include/vltstd -g  -Wall -Wpedantic -o CMakeFiles/simulation.dir/sim_dir/Vtest___024root__0__Slow.cpp.o -c /home/tudor/Licenta/VerilatorSetup/sim_dir/Vtest___024root__0__Slow.cpp",
+  "file": "/home/tudor/Licenta/VerilatorSetup/sim_dir/Vtest___024root__0__Slow.cpp"
+},
+{
+  "directory": "/home/tudor/Licenta/VerilatorSetup/build",
+  "command": "/usr/bin/clang++ -DVM_COVERAGE=0 -DVM_SC=0 -DVM_TRACE=1 -DVM_TRACE_FST=1 -DVM_TRACE_SAIF=0 -DVM_TRACE_VCD=0 -I/home/tudor/Licenta/VerilatorSetup/sim_dir -I/home/tudor/Documents/oss-cad-suite/share/verilator/include -I/home/tudor/Documents/oss-cad-suite/share/verilator/include/vltstd -g -o CMakeFiles/simulation.dir/sim_dir/Vtest__Trace__0.cpp.o -c /home/tudor/Licenta/VerilatorSetup/sim_dir/Vtest__Trace__0.cpp",
+  "file": "/home/tudor/Licenta/VerilatorSetup/sim_dir/Vtest__Trace__0.cpp"
+},
+{
+  "directory": "/home/tudor/Licenta/VerilatorSetup/build",
+  "command": "/usr/bin/clang++ -DVM_COVERAGE=0 -DVM_SC=0 -DVM_TRACE=1 -DVM_TRACE_FST=1 -DVM_TRACE_SAIF=0 -DVM_TRACE_VCD=0 -I/home/tudor/Licenta/VerilatorSetup/sim_dir -I/home/tudor/Documents/oss-cad-suite/share/verilator/include -I/home/tudor/Documents/oss-cad-suite/share/verilator/include/vltstd -g  -Wall -Wpedantic -o CMakeFiles/simulation.dir/sim_dir/Vtest__Syms__Slow.cpp.o -c /home/tudor/Licenta/VerilatorSetup/sim_dir/Vtest__Syms__Slow.cpp",
+  "file": "/home/tudor/Licenta/VerilatorSetup/sim_dir/Vtest__Syms__Slow.cpp"
+},
+{
+  "directory": "/home/tudor/Licenta/VerilatorSetup/build",
+  "command": "/usr/bin/clang++ -DVM_COVERAGE=0 -DVM_SC=0 -DVM_TRACE=1 -DVM_TRACE_FST=1 -DVM_TRACE_SAIF=0 -DVM_TRACE_VCD=0 -I/home/tudor/Licenta/VerilatorSetup/sim_dir -I/home/tudor/Documents/oss-cad-suite/share/verilator/include -I/home/tudor/Documents/oss-cad-suite/share/verilator/include/vltstd -g  -Wall -Wpedantic -o CMakeFiles/simulation.dir/sim_dir/Vtest__Trace__0__Slow.cpp.o -c /home/tudor/Licenta/VerilatorSetup/sim_dir/Vtest__Trace__0__Slow.cpp",
+  "file": "/home/tudor/Licenta/VerilatorSetup/sim_dir/Vtest__Trace__0__Slow.cpp"
+},
+{
+  "directory": "/home/tudor/Licenta/VerilatorSetup/build",
+  "command": "/usr/bin/clang++ -DVM_COVERAGE=0 -DVM_SC=0 -DVM_TRACE=1 -DVM_TRACE_FST=1 -DVM_TRACE_SAIF=0 -DVM_TRACE_VCD=0 -I/home/tudor/Licenta/VerilatorSetup/sim_dir -I/home/tudor/Documents/oss-cad-suite/share/verilator/include -I/home/tudor/Documents/oss-cad-suite/share/verilator/include/vltstd -g  -Wall -Wpedantic -o CMakeFiles/simulation.dir/sim_dir/Vtest__TraceDecls__0__Slow.cpp.o -c /home/tudor/Licenta/VerilatorSetup/sim_dir/Vtest__TraceDecls__0__Slow.cpp",
+  "file": "/home/tudor/Licenta/VerilatorSetup/sim_dir/Vtest__TraceDecls__0__Slow.cpp"
+},
+{
+  "directory": "/home/tudor/Licenta/VerilatorSetup/build",
+  "command": "/usr/bin/clang++ -DVM_COVERAGE=0 -DVM_SC=0 -DVM_TRACE=1 -DVM_TRACE_FST=1 -DVM_TRACE_SAIF=0 -DVM_TRACE_VCD=0 -I/home/tudor/Licenta/VerilatorSetup/sim_dir -I/home/tudor/Documents/oss-cad-suite/share/verilator/include -I/home/tudor/Documents/oss-cad-suite/share/verilator/include/vltstd -g -o CMakeFiles/simulation.dir/home/tudor/Documents/oss-cad-suite/share/verilator/include/verilated.cpp.o -c /home/tudor/Documents/oss-cad-suite/share/verilator/include/verilated.cpp",
+  "file": "/home/tudor/Documents/oss-cad-suite/share/verilator/include/verilated.cpp"
+},
+{
+  "directory": "/home/tudor/Licenta/VerilatorSetup/build",
+  "command": "/usr/bin/clang++ -DVM_COVERAGE=0 -DVM_SC=0 -DVM_TRACE=1 -DVM_TRACE_FST=1 -DVM_TRACE_SAIF=0 -DVM_TRACE_VCD=0 -I/home/tudor/Licenta/VerilatorSetup/sim_dir -I/home/tudor/Documents/oss-cad-suite/share/verilator/include -I/home/tudor/Documents/oss-cad-suite/share/verilator/include/vltstd -g -o CMakeFiles/simulation.dir/home/tudor/Documents/oss-cad-suite/share/verilator/include/verilated_fst_c.cpp.o -c /home/tudor/Documents/oss-cad-suite/share/verilator/include/verilated_fst_c.cpp",
+  "file": "/home/tudor/Documents/oss-cad-suite/share/verilator/include/verilated_fst_c.cpp"
+},
+{
+  "directory": "/home/tudor/Licenta/VerilatorSetup/build",
+  "command": "/usr/bin/clang++ -DVM_COVERAGE=0 -DVM_SC=0 -DVM_TRACE=1 -DVM_TRACE_FST=1 -DVM_TRACE_SAIF=0 -DVM_TRACE_VCD=0 -I/home/tudor/Licenta/VerilatorSetup/sim_dir -I/home/tudor/Documents/oss-cad-suite/share/verilator/include -I/home/tudor/Documents/oss-cad-suite/share/verilator/include/vltstd -g -o CMakeFiles/simulation.dir/home/tudor/Documents/oss-cad-suite/share/verilator/include/verilated_threads.cpp.o -c /home/tudor/Documents/oss-cad-suite/share/verilator/include/verilated_threads.cpp",
+  "file": "/home/tudor/Documents/oss-cad-suite/share/verilator/include/verilated_threads.cpp"
+}
+]
