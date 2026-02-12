@@ -6,7 +6,7 @@ module pc(
 );
     logic [31:0] data_r;
     assign o_data_w = data_r;
-    always_ff @(posedge i_clk_w or i_rst_w) begin
+    always_ff @(posedge i_clk_w or posedge i_rst_w) begin
         if(i_rst_w) begin
             data_r   <= 'b0;
         end
@@ -15,6 +15,6 @@ module pc(
         end
     end
 
-endmodule; // pc
+endmodule // pc
 
 // 32 bit register, write on clk, read comb
