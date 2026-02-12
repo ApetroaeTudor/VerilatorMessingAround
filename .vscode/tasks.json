@@ -1,0 +1,79 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "type": "shell",
+            "label": "CLEAN_ALL",
+            "dependsOn": [
+                "CLEAN_CACHE",
+                "CLEAN_BUILD",
+                "CLEAN_SIMS"
+            ],
+            "problemMatcher": [],
+            "group": "build"
+        },
+        {
+            "type": "shell",
+            "label": "CLEAN CACHE",
+            "command": "rm",
+            "args": [
+                "-rf",
+                ".cache"
+            ],
+            "problemMatcher": [],
+            "group": "cleanup"
+        },
+        {
+            "type": "shell",
+            "label": "CLEAN_BUILD",
+            "command": "rm",
+            "args": [
+                "-rf",
+                "build"
+            ],
+            "problemMatcher": [],
+            "group": "cleanup"
+        },
+        {
+            "type": "shell",
+            "label": "CLEAN_SIMS",
+            "command": "rm",
+            "args": [
+                "-rf",
+                "sim_dir"
+            ],
+            "problemMatcher": [],
+            "group": "cleanup"
+        },
+        {
+            "type": "shell",
+            "label": "CMAKE_CONFIGURE",
+            "command": "cmake",
+            "args": [
+                "-S",
+                ".",
+                "-B",
+                "build"
+            ]
+        },
+        {
+            "type": "shell",
+            "label": "CMAKE_BUILD",
+            "command": "cmake",
+            "args": [
+                "--build",
+                "build"
+            ],
+            "dependsOn": [
+                "CMAKE_CONFIGURE"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": [
+                "$gcc"
+            ]
+        }
+    ]
+}
