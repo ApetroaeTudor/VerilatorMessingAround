@@ -10,6 +10,7 @@ set(ARM_SC_SRC ${PROJECT_SOURCE_DIR}/arm_SingleCycle/src)
 set(ARM_SC_TB ${PROJECT_SOURCE_DIR}/arm_SingleCycle/tbs)
 
 add_executable(${PRJ_NAME} ${ARM_SC_TB}/pc_tb.cpp)
+target_compile_definitions(${PRJ_NAME} PRIVATE PRJ_ROOT="${PROJECT_SOURCE_DIR}")
 
 verilate(
     ${PRJ_NAME}

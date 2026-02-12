@@ -74,6 +74,24 @@
             "problemMatcher": [
                 "$gcc"
             ]
+        },
+        {
+            "type": "shell",
+            "label": "RUN_SIM",
+            "command": "cd build; ./simulation; cd ..",
+            "problemMatcher": []
+        },
+        {
+            "type": "shell",
+            "label": "RUN_GTK",
+            "command": "cd build; gtkwave waveform.fst;",
+            "problemMatcher": [],
+            "dependsOn": [
+                "CLEAN_ALL",
+                "CMAKE_BUILD",
+                "RUN_SIM"
+            ],
+            "dependsOrder": "sequence"
         }
     ]
 }
